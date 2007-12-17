@@ -6,7 +6,6 @@ Group: Development/X11
 URL: http://xorg.freedesktop.org
 Source: http://xorg.freedesktop.org/releases/individual/font/font-xfree86-type1-%{version}.tar.bz2
 License: Misc licenses
-BuildRoot: %{_tmppath}/%{name}-root
 BuildArch: noarch
 BuildRequires: fontconfig
 BuildRequires: x11-font-util >= 1.0.0
