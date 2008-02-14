@@ -3,6 +3,7 @@ Version: 1.0.0
 Release: %mkrel 6
 Summary: Xorg X11 font xfree86-type1
 Group: Development/X11
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL: http://xorg.freedesktop.org
 Source: http://xorg.freedesktop.org/releases/individual/font/font-xfree86-type1-%{version}.tar.bz2
 License: Misc licenses
