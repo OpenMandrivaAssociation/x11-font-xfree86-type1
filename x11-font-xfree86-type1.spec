@@ -1,6 +1,6 @@
 Name: x11-font-xfree86-type1
 Version: 1.0.1
-Release: %mkrel 2
+Release: %mkrel 3
 Summary: Xorg X11 font xfree86-type1
 Group: Development/X11
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
