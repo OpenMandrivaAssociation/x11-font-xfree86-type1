@@ -1,5 +1,5 @@
 Name: x11-font-xfree86-type1
-Version: 1.0.2
+Version: 1.0.3
 Release: %mkrel 1
 Summary: Xorg X11 font xfree86-type1
 Group: Development/X11
@@ -10,7 +10,7 @@ License: MIT
 BuildArch: noarch
 BuildRequires: fontconfig
 BuildRequires: x11-font-util >= 1.0.0
-BuildRequires: x11-util-macros >= 1.0.1
+BuildRequires: x11-util-macros >= 1.0.2
 Conflicts: xorg-x11 <= 6.9.0
 Requires(post): mkfontdir
 Requires(postun): mkfontdir
