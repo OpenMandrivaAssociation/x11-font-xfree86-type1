@@ -34,6 +34,7 @@ Xorg X11 font xfree86-type1
 %install
 rm -rf %{buildroot}
 %makeinstall_std
+rm -f %{buildroot}%{_datadir}/fonts/Type1/fonts.{dir,scale}
 
 %post
 mkfontscale %{_datadir}/fonts/Type1
@@ -50,5 +51,3 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc COPYING
 %{_datadir}/fonts/Type1/cursor.pfa
-%exclude %{_datadir}/fonts/Type1/fonts.scale 
-%exclude %{_datadir}/fonts/Type1/fonts.dir
