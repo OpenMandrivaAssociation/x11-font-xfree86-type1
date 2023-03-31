@@ -1,6 +1,6 @@
 Name: x11-font-xfree86-type1
 Version: 1.0.5
-Release: 1
+Release: 2
 Summary: Xorg X11 font xfree86-type1
 Group: Development/X11
 URL: https://xorg.freedesktop.org
